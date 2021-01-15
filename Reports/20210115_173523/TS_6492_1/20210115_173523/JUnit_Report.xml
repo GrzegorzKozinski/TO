@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_6492_1" time="47.393" tests="1" failures="0" skips="0" errors="0">
+   <testsuite name="TS_6492_1" tests="1" failures="0" errors="0" time="47.393" skips="0" timestamp="2021-01-15 17:35:32" hostname="Grzegorz - Zalman" id="Test Suites/TS_6492_1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Grzegorz\\Desktop\\Studia\\Testowanie Oprogramowania\\6492_TO\\6492_TO\\Reports\\20210115_173523\\TS_6492_1\\20210115_173523"/>
+         <property name="logFiles" value="C:\\Users\\Grzegorz\\Desktop\\Studia\\Testowanie Oprogramowania\\6492_TO\\6492_TO\\Reports\\20210115_173523\\TS_6492_1\\20210115_173523\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Grzegorz - Zalman"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="14db412d40553fea30113c4174e4d7df"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych)" time="46.108" classname="Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych)" status="PASSED">
+         <system-out><![CDATA[2021-01-15 17:35:34 - [TEST_CASE][PASSED] - Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych): Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych)
+
+2021-01-15 17:35:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-15 17:35:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-15 17:35:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-15 17:35:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-15 17:35:38 - [TEST_STEP][PASSED] - navigateToUrl(findTestData("Data Files/link").getValue(1, 1)): Navigate to 'https://demobank.jaktestowac.pl/' successfully
+
+2021-01-15 17:35:39 - [MESSAGE][PASSED] - Navigate to 'https://demobank.jaktestowac.pl/' successfully
+
+2021-01-15 17:35:39 - [TEST_STEP][PASSED] - for ([records = 1, records < findTestData("Data Files/1-Demobank/users (1)").getRowNumbers(), (++records)]): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:39 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text '12345676' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:40 - [MESSAGE][PASSED] - Text '12345676' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:40 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:40 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text '12345678' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:41 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:41 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:41 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:35:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:42 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:42 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - else: null
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - assert kwota > 0: null
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '222' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:43 - [MESSAGE][PASSED] - Text '222' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'T' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:43 - [MESSAGE][PASSED] - Text 'T' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:43 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:35:45 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:45 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:45 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:35:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:46 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text 'Byczeq88' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:46 - [MESSAGE][PASSED] - Text 'Byczeq88' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:46 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text 'lodynapa' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:47 - [MESSAGE][PASSED] - Text 'lodynapa' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:47 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:35:48 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:35:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:48 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:49 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - kwota *= -1: null
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '1200' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:49 - [MESSAGE][PASSED] - Text '1200' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'deficyt' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:50 - [MESSAGE][PASSED] - Text 'deficyt' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:50 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:35:52 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:52 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:52 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text 'Grzegorz' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Text 'Grzegorz' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:53 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:35:53 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:35:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text '12345687' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:54 - [MESSAGE][PASSED] - Text '12345687' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:35:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:54 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:35:54 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:35:54 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:35:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:35:54 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:35:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:55 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:35:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:56 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - else: null
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - assert kwota > 0: null
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '666' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:56 - [MESSAGE][PASSED] - Text '666' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:56 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'Czarny rytual' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:56 - [MESSAGE][PASSED] - Text 'Czarny rytual' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:35:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:35:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:58 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:35:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:35:59 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:35:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:35:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:35:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:35:59 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text 'Player82' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:00 - [MESSAGE][PASSED] - Text 'Player82' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:00 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text 'bombsnoh' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:00 - [MESSAGE][PASSED] - Text 'bombsnoh' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:01 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:36:01 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:36:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:01 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:02 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - else: null
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - assert kwota > 0: null
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '664' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:02 - [MESSAGE][PASSED] - Text '664' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:02 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'Bialy rytual' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:03 - [MESSAGE][PASSED] - Text 'Bialy rytual' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:03 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:36:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:05 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:05 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text 'madJack0' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Text 'madJack0' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:06 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text 'onedwa41' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:07 - [MESSAGE][PASSED] - Text 'onedwa41' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:07 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:36:07 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:36:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:07 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:36:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:08 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:09 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - else: null
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - assert kwota > 0: null
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '13' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:09 - [MESSAGE][PASSED] - Text '13' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:09 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'Waciki' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:09 - [MESSAGE][PASSED] - Text 'Waciki' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:09 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:36:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:11 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:12 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:36:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_identyfikator_login_id' is present
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/logowanie/login"), findTestData("Data Files/1-Demobank/users (1)").getValue(1, records)): Text 'Halyna21' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:13 - [MESSAGE][PASSED] - Text 'Halyna21' is set on object 'Object Repository/Demobank/logowanie/login'
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej"))): null
+
+2021-01-15 17:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clickable
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_dalej' is clicked on
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:13 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo' is present
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - Thread.sleep(300): null
+
+2021-01-15 17:36:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo"), findTestData("Data Files/1-Demobank/users (1)").getValue(2, records)): Text 'becool#!' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:14 - [MESSAGE][PASSED] - Text 'becool#!' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/input_haso_haslo'
+
+2021-01-15 17:36:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:14 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is present
+
+2021-01-15 17:36:14 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si"))): null
+
+2021-01-15 17:36:14 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clickable
+
+2021-01-15 17:36:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Logowanie/button_zaloguj si' is clicked on
+
+2021-01-15 17:36:14 - [TEST_STEP][PASSED] - Thread.sleep(1000): null
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71' is present
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71"), "1", true): All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz odbiorc przelewu            _029a71'  using regular expression
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:15 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount' is present
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - kwota = Integer.parseInt(findTestData("Data Files/1-Demobank/users (1)").getValue(3, records)): null
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - if (kwota < 0): null
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - else: null
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - assert kwota > 0: null
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount"), Integer.toString(kwota)): Text '8' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:15 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_transfer_amount'
+
+2021-01-15 17:36:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:16 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title' is present
+
+2021-01-15 17:36:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title"), findTestData("Data Files/1-Demobank/users (1)").getValue(4, records)): Text 'Nawoz naturalny' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:16 - [MESSAGE][PASSED] - Text 'Nawoz naturalny' is set on object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_tytuem_widget_1_transfer_title'
+
+2021-01-15 17:36:16 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2021-01-15 17:36:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:18 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clickable
+
+2021-01-15 17:36:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj' is clicked on
+
+2021-01-15 17:36:18 - [TEST_STEP][PASSED] - Thread.sleep(500): null
+
+2021-01-15 17:36:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj"), 0): Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-01-15 17:36:19 - [MESSAGE][PASSED] - Object 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is present
+
+2021-01-15 17:36:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj")): Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj' is clicked on
+
+2021-01-15 17:36:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-15 17:36:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-15 17:35:32 - [TEST_SUITE][INCOMPLETE] - TS_6492_1: null]]></system-out>
+      <system-err><![CDATA[2021-01-15 17:35:32 - [TEST_SUITE][INCOMPLETE] - TS_6492_1: null]]></system-err>
+   </testsuite>
+</testsuites>

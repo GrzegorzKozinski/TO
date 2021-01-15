@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6492_2,Chrome 87.0.4280.141,Sklep,,2021-01-15 19:50:22,2021-01-15 19:52:08,"1m - 45,857s",PASSED
+,,,,,,,
+Test Cases/6492_Sklepdemo/TC_6492_Rejestracja kont,Chrome 87.0.4280.141,,,2021-01-15 19:50:23,2021-01-15 19:51:45,"1m - 21,558s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-15 19:50:24,2021-01-15 19:50:28,"4,048s",PASSED
+"navigateToUrl(findTestData(""Data Files/link"").getValue(1, 2))",Chrome 87.0.4280.141,,,2021-01-15 19:50:28,2021-01-15 19:50:29,"1,119s",PASSED
+waitForPageLoad(2),Chrome 87.0.4280.141,,,2021-01-15 19:50:29,2021-01-15 19:50:29,"0,096s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Sklep internetowy demo/span_zamknij""))",Chrome 87.0.4280.141,,,2021-01-15 19:50:29,2021-01-15 19:50:31,"2,144s",PASSED
+"for ([n = 1, n < findTestData(""Data Files/2-Sklepdemo/sklep"").getRowNumbers(), (++n)])",Chrome 87.0.4280.141,,,2021-01-15 19:50:31,2021-01-15 19:51:44,"1m - 13,105s",PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-15 19:51:44,2021-01-15 19:51:45,"0,693s",PASSED
+,,,,,,,
+Test Cases/6492_Sklepdemo/TC_6492_zakupy_zywnosci,Chrome 87.0.4280.141,,,2021-01-15 19:51:45,2021-01-15 19:52:08,"23,099s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-15 19:51:45,2021-01-15 19:51:49,"3,399s",PASSED
+"navigateToUrl(findTestData(""link"").getValue(1, 2))",Chrome 87.0.4280.141,,,2021-01-15 19:51:49,2021-01-15 19:51:50,"1,440s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Sklep internetowy demo/a_Zdrowa ywno(30)""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:50,2021-01-15 19:51:51,"0,599s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/div_Fruit  Fruits_cartadder product-add""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:51,2021-01-15 19:51:51,"0,114s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/span_Kupuj dalej""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:51,2021-01-15 19:51:51,"0,144s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/div_Fruit  Fruits_cartadder product-add""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:51,2021-01-15 19:51:51,"0,435s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/span_Kupuj dalej""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:51,2021-01-15 19:51:52,"0,115s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/div_Fruit  Fruits_cartadder product-add""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:52,2021-01-15 19:51:52,"0,420s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/span_Kupuj dalej""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:52,2021-01-15 19:51:52,"0,156s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/a_2""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:52,2021-01-15 19:51:53,"0,763s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/div_Fruit  Fruits_cartadder product-add""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:53,2021-01-15 19:51:53,"0,120s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_ywno zdrowa/a_Przejd do koszyka""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:53,2021-01-15 19:51:54,"0,969s",PASSED
+"waitForPageLoad(2, CONTINUE_ON_FAILURE)",Chrome 87.0.4280.141,,,2021-01-15 19:51:54,2021-01-15 19:51:54,"0,025s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Sklep internetowy demo/span_zamknij""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:54,2021-01-15 19:51:56,"2,053s",PASSED
+Thread.sleep(200),Chrome 87.0.4280.141,,,2021-01-15 19:51:56,2021-01-15 19:51:56,"0,212s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Koszyk/label_Patno przy odbiorze""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:56,2021-01-15 19:51:56,"0,126s",PASSED
+Thread.sleep(200),Chrome 87.0.4280.141,,,2021-01-15 19:51:56,2021-01-15 19:51:57,"0,200s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Koszyk/button_Realizuj zamwienie""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:57,2021-01-15 19:51:57,"0,447s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Mam konto_email""), findTestData(""2-Sklepdemo/humans (1)"").getValue(1, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:57,2021-01-15 19:51:57,"0,223s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Adres e-mail_billingPhone""), findTestData(""2-Sklepdemo/humans (1)"").getValue(2, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:57,2021-01-15 19:51:57,"0,202s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Numer NIP_billingFirstName""), findTestData(""2-Sklepdemo/humans (1)"").getValue(3, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:57,2021-01-15 19:51:58,"0,190s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Imi_billingLastName""), findTestData(""2-Sklepdemo/humans (1)"").getValue(4, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:58,2021-01-15 19:51:58,"0,194s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Nazwisko_billingAddress""), findTestData(""2-Sklepdemo/humans (1)"").getValue(5, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:58,2021-01-15 19:51:58,"0,198s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Ulica_billingAddress2""), findTestData(""2-Sklepdemo/humans (1)"").getValue(6, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:58,2021-01-15 19:51:58,"0,218s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Nr domu_billingAddress3""), findTestData(""2-Sklepdemo/humans (1)"").getValue(7, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:58,2021-01-15 19:51:58,"0,199s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Nr lokalu_billingCity""), findTestData(""2-Sklepdemo/humans (1)"").getValue(8, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:58,2021-01-15 19:51:59,"0,220s",PASSED
+"setText(findTestObject(""Object Repository/Demosklep/Page_Koszyk/input_Miejscowo_billingPostalCode""), findTestData(""2-Sklepdemo/humans (1)"").getValue(9, 1))",Chrome 87.0.4280.141,,,2021-01-15 19:51:59,2021-01-15 19:51:59,"0,214s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Koszyk/label_Przykadowa klauzula akceptacji regulaminu""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:59,2021-01-15 19:51:59,"0,137s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Koszyk/button_Zamawiam i pac""))",Chrome 87.0.4280.141,,,2021-01-15 19:51:59,2021-01-15 19:52:00,"0,664s",PASSED
+Thread.sleep(3000),Chrome 87.0.4280.141,,,2021-01-15 19:52:00,2021-01-15 19:52:03,"3,005s",PASSED
+"click(findTestObject(""Object Repository/Demosklep/Page_Koszyk/a_powrt do zakupw""))",Chrome 87.0.4280.141,,,2021-01-15 19:52:03,2021-01-15 19:52:03,"0,383s",PASSED

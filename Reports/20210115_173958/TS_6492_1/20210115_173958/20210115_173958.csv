@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6492_1,Chrome 87.0.4280.141,,,2021-01-15 17:40:08,2021-01-15 17:40:21,"13,249s",FAILED
+,,,,,,,
+Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych),Chrome 87.0.4280.141,,,2021-01-15 17:40:09,2021-01-15 17:40:21,"12,017s",FAILED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-15 17:40:09,2021-01-15 17:40:13,"4,037s",PASSED
+"navigateToUrl(findTestData(""Data Files/link"").getValue(1, 1))",Chrome 87.0.4280.141,,,2021-01-15 17:40:13,2021-01-15 17:40:15,"1,317s",PASSED
+"for ([records = 1, records < findTestData(""Data Files/1-Demobank/users (1)"").getRowNumbers(), (++records)])",Chrome 87.0.4280.141,,,2021-01-15 17:40:15,2021-01-15 17:40:16,"1,248s",FAILED

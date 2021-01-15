@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_6492_1,Chrome 87.0.4280.141,,,2021-01-15 09:09:52,2021-01-15 09:10:26,"34,161s",PASSED
+,,,,,,,
+Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych),Chrome 87.0.4280.141,,,2021-01-15 09:09:53,2021-01-15 09:10:26,"32,970s",PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2021-01-15 09:09:54,2021-01-15 09:09:58,"4,144s",PASSED
+"navigateToUrl(""https://demobank.jaktestowac.pl/logowanie_etap_1.html"")",Chrome 87.0.4280.141,,,2021-01-15 09:09:58,2021-01-15 09:09:59,"1,626s",PASSED
+"for ([records = 1, records < findTestData(""Data Files/1-Demobank/users (1)"").getRowNumbers(), (++records)])",Chrome 87.0.4280.141,,,2021-01-15 09:09:59,2021-01-15 09:10:26,"26,184s",PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2021-01-15 09:10:26,2021-01-15 09:10:26,"0,655s",PASSED

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>użytkownicy</description>
+   <name>users (1)</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator>TAB</csvSeperator>
+   <dataFileGUID>4ed78ae1-acb4-4b01-b6ce-6cdc3e5d52b8</dataFileGUID>
+   <dataSourceUrl>C:\Users\Grzegorz\Desktop\Studia\Testowanie Oprogramowania\6492_TO\6492_TO\Data Files\1-Demobank\users.csv</dataSourceUrl>
+   <driver>CSV</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
