@@ -15,6 +15,6 @@
       <guid>918e7c52-b27a-4b96-8110-9557902911ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6492_Demobank/TC_6492_Demobank_szybki_przelew(zestawem_danych)</testCaseId>
+      <testCaseId>Test Cases/6492_1/TC_6492_Demobank_szybki_przelew(zestawem_danych)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

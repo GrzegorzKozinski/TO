@@ -117,10 +117,20 @@ for (def records = 1; records < findTestData('Data Files/1-Demobank/users (1)').
     WebUI.click(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_wykonaj'))
 
     Thread.sleep(500)
-
+	//wybor numertu tel
+	WebUI.selectOptionByValue(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/select_wybierz telefon do doadowania       _5c7a19'),
+		'500 xxx xxx', true)
+	//wpis wartosci doladowania
+	WebUI.setText(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/input_kwota_widget_1_topup_amount'),
+		 findTestData('Data Files/1-Demobank/users (1)').getValue(5, records))
+	Thread.sleep(2000)
     //oczekiwanie na zaladowanie przycisku wylogowania
     WebUI.waitForElementPresent(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj'), 
         0)
+	//ozanczenie chceckboxu
+	WebUI.click(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/span'))
+	//doladowanie
+	WebUI.click(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/button_doaduj telefon'))
 
     WebUI.click(findTestObject('Object Repository/Demobank/Page_Demobank - Bankowo Internetowa - Pulpit/a_Wyloguj'))
 }

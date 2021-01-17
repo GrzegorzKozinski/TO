@@ -15,12 +15,12 @@
       <guid>b32dae3f-f747-4a55-a1b2-29108ea80f18</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6492_Sklepdemo/TC_6492_Rejestracja kont</testCaseId>
+      <testCaseId>Test Cases/6492_Sklepdemo/TC_6492_2</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>9976c4f0-b166-4aca-808e-cda47e4f1f7e</guid>
+      <guid>1f3bcddd-a94f-46e2-90a6-02636b29bec4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/6492_Sklepdemo/TC_6492_zakupy_zywnosci</testCaseId>
+      <testCaseId>Test Cases/6492_Sklepdemo/TC_6492_3</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
